@@ -1,11 +1,11 @@
 import React from 'react';
 
-const page = () => {
+const ManageUser = () => {
     return (
         <div>
-            Manage User
+          Manage Service  
         </div>
     );
 };
 
-export default page;
+export default ManageUser;

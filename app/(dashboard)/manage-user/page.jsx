@@ -1,9 +1,9 @@
 import React from 'react';
 
-const page = () => {
+const ManageUser = () => {
     return (
         <div>
-            Booking List
+            Manage User
         </div>
     );
 };

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const page = () => {
+const Services = () => {
     return (
         <div>
-            Order List
+            
         </div>
     );
 };
 
-export default page;
+export default Services;

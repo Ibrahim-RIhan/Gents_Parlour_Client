@@ -1,6 +1,6 @@
 
 
-const page = () => {
+const Review = () => {
     return (
         <div>
             Review
@@ -8,4 +8,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Review;
