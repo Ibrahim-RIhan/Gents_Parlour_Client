@@ -42,6 +42,7 @@ const Contact = () => {
             rows="7"
           ></textarea>
         </div>
+        <button className="btn-black w-full my-5">Send</button>
       </div>
     </div>
   );
