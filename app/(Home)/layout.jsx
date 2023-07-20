@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 
 const layout = ({ children }) => {
   return (
-    <html>
+    <html data-theme="light">
       <body>
         <Navbar></Navbar>
         <main>
