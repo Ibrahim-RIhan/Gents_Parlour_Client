@@ -1,9 +1,12 @@
+"use client"
 import React from 'react';
+
 
 const Featured = () => {
     return (
         <div>
-            Featured Service
+            hellloooooo
+         <img src="./featured.png" alt="" />
         </div>
     );
 };

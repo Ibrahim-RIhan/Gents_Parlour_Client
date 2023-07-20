@@ -10,4 +10,6 @@
     font-semibold
     text-lg
     rounded-lg
+    transition-transform
+    hover:scale-105
 }
