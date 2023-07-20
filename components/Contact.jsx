@@ -4,30 +4,26 @@ const Contact = () => {
   return (
     <div className="bg-[#FFF8F5] flex flex-col justify-center items-center h-full p-16">
       <div>
-        <h3 className="text-5xl leading-relaxed font-bold text-center my-10">
+        <h3 className="text-5xl leading-relaxed text-blue-950 font-bold text-center my-10">
           Let us handle your <br />
           Project Professionally
         </h3>
         <div className="text-center">
+        
           <input
-            className="border px-5 placeholder:text-gray-500 placeholder:px-1  border-gray-700 transition-all hover:scale-105 py-3 lg:mr-5 mb-5 rounded-lg "
-            placeholder="First Name"
-            type="text"
-          />
-          <input
-            className="border  placeholder:text-gray-500 placeholder:px-1 px-5 border-gray-700 transition-all hover:scale-105 py-3 rounded-lg "
-            placeholder="Last Name"
+            className="border  placeholder:text-gray-500 placeholder:px-1 px-5 w-full border-gray-700 transition-all hover:scale-105 py-3 rounded-lg "
+            placeholder="Name"
             type="text"
           />
         </div>
         <div className="my-5 text-center">
           <input
-            className="border  placeholder:text-gray-500 placeholder:px-1 border-gray-700 transition-all hover:scale-105 py-3 px-5 lg:mr-5  mb-5 rounded-lg "
+            className="border placeholder:text-gray-500 placeholder:px-1 border-gray-700 transition-all hover:scale-105 py-3 px-5 lg:mr-5 w-full  mb-5 rounded-lg "
             placeholder="Email address"
             type="email"
           />
           <input
-            className="border placeholder:text-gray-500 placeholder:px-1 px-5 border-gray-700 transition-all hover:scale-105 py-3 rounded-lg "
+            className="border w-full placeholder:text-gray-500 placeholder:px-1 px-5 border-gray-700 transition-all hover:scale-105 py-3 rounded-lg "
             placeholder="Phone number"
             type="text"
           />

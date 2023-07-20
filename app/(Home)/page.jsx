@@ -1,13 +1,19 @@
+"use client";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Featured from "@/components/Featured";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonial";
-import React from "react";
+import { motion, useScroll } from "framer-motion";
 
 const HomePage = () => {
+  const { scrollYProgress } = useScroll();
+
   return (
-    <div>
+    <motion.path
+      d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+      style={{ pathLength: scrollYProgress }}
+    >
       <Banner></Banner>
       <div className="container mx-auto">
         <Service></Service>
@@ -17,7 +23,7 @@ const HomePage = () => {
         <Testimonial></Testimonial>
       </div>
       <Contact></Contact>
-    </div>
+    </motion.path>
   );
 };
 

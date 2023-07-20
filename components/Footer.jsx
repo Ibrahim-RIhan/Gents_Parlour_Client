@@ -10,8 +10,8 @@ import{MdLocationOn} from "react-icons/md"
 const Footer = () => {
   return (
     <footer 
-    className="grid grid-cols-1 md:grid-cols-2 py-16 px-9 bg-stone-800 text-gray-200 lg:grid-cols-4 items-start  justify-items-center">
-      <div className="flex items-start gap-5">
+    className="grid grid-cols-1 md:grid-cols-2 py-16 px-9 bg-stone-800 text-gray-200 lg:grid-cols-4 items-start  md:justify-items-center">
+      <div className="flex flex-col md:flex-row my-5  gap-5">
         <MdLocationOn className="text-2xl"></MdLocationOn>
         <div>
           <p>H#000 (0th Floor), Road #00,</p>
@@ -19,13 +19,13 @@ const Footer = () => {
           <p>Dhaka, Bangladesh</p>
         </div>
       </div>
-      <div>
+      <div className="my-5">
         <h1 className="text-xl font-bold mb-3">Company</h1>
         <p>About</p>
         <p>Projects</p>
         <p>Services</p>
       </div>
-      <div>
+      <div className="my-5">
         <h1 className="text-xl font-bold mb-3">Quick Links</h1>
         <p>About</p>
         <p>Projects</p>
